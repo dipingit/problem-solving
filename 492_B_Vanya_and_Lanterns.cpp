@@ -24,5 +24,5 @@ int main(){
     double z = l - ar[n-1];
     ans = max(z, ans);
 
-    cout<<fixed<<setprecision(9)<<ans;
+    cout<<fixed<<setprecision(10)<<ans;
 }
